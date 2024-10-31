@@ -1,0 +1,166 @@
+/* section */
+h1{
+    font-weight: bolder;
+    font-size: 30px;
+    display: inline-block;
+    padding-top: 80px;
+}
+.ti{
+    color:red;
+    background-color: rgb(244,220,219);
+    height: 30px;
+    
+}
+
+.slide{
+    height: 300px;
+    overflow: hidden;
+}
+.card img {
+    height: 340px;
+    width: 270px;
+}
+.card p {
+    max-width: 240px;
+}
+ .row-container{
+    width: 1390px;
+    padding: 0 111px;
+}
+.col-3{
+    position: relative;
+    overflow: hidden;
+}
+.card-item{
+    height: 340px;
+    width: 280px; 
+}
+.info{
+    padding-left: 10px;
+    padding-right: 30px;
+    position: absolute;
+    top: 240px;
+    color: white;
+}
+.info p {
+    font-size: 16px;
+}
+.card:hover{
+    box-shadow: 2px 2px 5px 5px gray;
+}
+.card-item img:hover {
+    box-shadow: 2px 2px 5px 5px gray;
+}
+.pq {
+    position: relative;
+}
+.pq h3{
+    position: absolute;
+    top: 150px;
+    padding-left: 10px;
+    color: white;
+}
+.pq img{
+    height: 200px;
+    width: 850px;
+    margin-bottom: 10px;
+}
+.dl {
+    position: relative;
+}
+.dl h3{
+    position: absolute;
+    color: white;
+    padding-left: 10px;
+    top: 150px
+}
+.dl img{
+    height: 200px;
+    width: 420px;
+}
+.qn {
+    position: relative;
+}
+.qn h3{
+    position: absolute;
+    color: white;
+    padding-left: 10px;
+    top: 150px;
+    margin-left: 137px;
+}
+.qn img{
+    height: 200px;
+    width: 420px;
+    margin-left: 137px;
+}
+.vt {
+    position: relative;
+}
+.vt h3 {
+    position: absolute;
+    top: 370px;
+    margin-left: 10px;
+    color: white;
+}
+.vt img {
+    height: 410px;
+    width: 410px;
+    margin-bottom: 10px;
+}
+.nt {
+    position: relative;
+}
+.nt  h3 {
+    position: absolute;
+    color: white;
+    top: 370px;
+    margin-left: 10px;
+}
+.nt img {
+    height: 410px;
+    width: 420px;
+}
+.dn {
+    position: relative;
+}
+.dn  h3 {
+    position: absolute;
+    color: white;
+    margin-left: 10px;
+    top: 160px
+}
+.dn img {
+    height: 200px;
+    width: 850px;
+    margin-bottom: 10px;
+}
+.pt {
+    position: relative;
+}
+.pt  h3{
+    position: absolute;
+    color: white;
+    margin-left: 10px;
+    top: 160px;
+}
+.pt img {
+    height: 200px;
+    width: 420px;
+}
+.py {
+    position: relative;
+}
+.py  h3 {
+    position: absolute;
+    color: white;
+    top: 160px;
+    margin-left: 140px;
+    padding-left: 10px;
+}
+
+.py img {
+    height: 200px;
+    width: 420px;
+    margin-left: 140px;
+}
+/* section */

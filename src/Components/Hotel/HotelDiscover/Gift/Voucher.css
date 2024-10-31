@@ -1,0 +1,100 @@
+
+p{
+    font-size: 18px;
+}
+
+.voucher-wrap{
+    width: 1019px;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 293px;
+    padding: 135px 0;
+}
+.content-wrap h1{
+    padding-top: 0;
+}
+.container-content{
+    border: 1px solid gray;
+    width: 500px;
+    padding: 10px 10px;
+    margin: 10px 0;
+}
+.button-select{
+    height: 38px;
+    width: 77px;
+    border: 1px solid;
+    border-radius: 3px;
+    margin: 17px 10px;
+    padding: 5px 5px;
+    display: inline-block;
+    cursor: pointer;
+}
+.button-price{
+    height: 38px;
+    width: 120px;
+    border: 1px solid;
+    border-radius: 3px;
+    margin: 17px 10px;
+    padding: 5px 5px;
+    display: inline-block; 
+    cursor: pointer;
+}
+label, input{
+    cursor: pointer;
+}
+.number-input{
+    width: 100px;
+    height: 28px;
+    display: flex;
+    margin-bottom: 20px;
+}
+.decrease{
+    border: 1px solid gray;
+    width: 28px;
+    height: 28px;
+    padding-left: 4px;
+    cursor: pointer;
+}
+.increase{
+    border: 1px solid gray;
+    width: 28px;
+    height: 28px;
+    padding-left: 4px;
+    cursor: pointer;
+}
+.count{
+    border: 1px solid gray;
+    width: 35px;
+    height: 28px;
+    padding-left: 12px;
+}
+.buyButton{
+    width: 156px;
+    height: 37px;
+    color: white;
+    background-color: rgb(247,147,33);
+    border: 1px solid rgb(247,147,33);
+    border-radius: 5px;
+    font-weight: 500;
+}
+.buyButton:hover{
+    background-color: orange;
+}
+.sectionValue{
+    display: inline-block;
+    border: 1px solid gray;
+    margin-left: 30px;
+    margin-bottom: 10px;
+    width: 120px;
+    height: 37px;
+    padding: 5px 8px ;
+}
+.voucherSample{
+    display: inline-block;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    height: 37px;
+    border: 1px solid gray;
+    width: 80px;
+    padding: 4px 7px;
+}

@@ -1,0 +1,204 @@
+/*TourDetail-Calrosel*/
+.body {
+    background-color: rgb(236,240,245);
+}
+.page{
+    margin: 0 189px;
+}
+.page h1 {
+    color: rgb(0,60,113);
+}
+.button-calrosel{
+    top: 60%;
+    position: absolute;
+
+}
+#prev{
+    margin-left: 40px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-right: 300px;
+    opacity: 0.3;
+    outline: white;
+}
+#prev:hover{
+    opacity: 0.6;
+}
+#next{
+    margin-right: 40px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-left: 300px;
+    opacity: 0.3;
+    outline: white;
+}
+#next:hover{
+    opacity: 0.6;
+}
+
+/*tourDetailHeaderContent*/
+.tourDetailContainer{
+    border-radius: 5px;
+    height: 248px;
+    width: 753px;
+    background-color: white;
+    margin-top: 10px;
+    padding: 0 30px;
+    overflow: hidden;
+}
+.departure-name{
+    border-bottom: 1px solid gray;
+    padding: 10px 0;
+
+}
+.departure-name b {
+    font-size: 20px;
+}
+.code-name{
+    border-bottom: 1px solid gray;
+    padding: 10px 0px;
+    text-align: right;
+}
+.code-name b {
+    font-size: 20px;
+}
+.tourDetailLine{
+    margin: 10px 0;
+}
+.tourService{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.check-icon{
+    color: rgb(43,191,215);
+}
+.tourDetailDiv1{
+    margin: 25px 0;
+}
+/*TourChedule*/
+.tourChedule{
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.tourCheduleTitle{
+    padding: 30px 25px;
+}
+.contentTour{
+    padding: 10px 10px;
+}
+.imageDescription{
+   text-align: center;
+}
+/*TourIntroduce*/
+.panel {
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 0 5px 2px rgb(232,232,232);
+    margin: 10px 0;
+    transition: max-height 2s ease-in-out;
+}
+.panel-container{
+    width: 710px;
+    height: 99px;
+    background-color: rgb(248,251,252);
+    border-radius: 5px;
+    overflow: hidden;
+    display: flex;
+}
+.panel-left img{
+    width: 155px;
+    height: 96px;
+}
+.panel-center{
+    width: 500px;
+    margin-top: 7px;
+    margin-left: 10px;
+    color: gray;
+    font-size: 30px;
+}
+.panel-center p {
+    line-height: 25px;
+}
+.panel-right{
+    padding-top: 30px;
+}
+.show{
+    padding-left: 10px;
+}
+/*TourOrder*/
+.bookContainer{
+    width: 360px;
+    height: 541px;
+    background-color: rgb(254,239,199);
+    padding: 10px 10px;
+}
+.box-white{
+    display: flex;
+    height: 54px;
+    width: 327px;
+    background-color: white;
+    padding: 4px 6px;
+    margin: 20px 0;
+    box-shadow: 0 0 5px 2px rgb(232,232,232);
+    border-radius: 5px;
+}
+.text{
+    min-width: 100px
+}
+.box-price{
+    color: orange;
+    padding: 10px 20px;
+    min-width: 130px;
+}
+.group-btn{
+    padding: 10px 10px;
+    display: flex;
+    justify-content: space-around;
+    width: 110px;
+}
+.notification{
+    color: rgb(38,190,213);
+}
+.totalTour{
+    display: flex;
+    margin: 20px 0;
+    max-height: 60px
+}
+.totalTour h5{
+    padding: 10px 0;
+}
+.totalTour h2{
+    color:  orange;
+    padding-left: 40px;
+}
+.contact-btn{
+    width: 156px;
+    height: 47px;
+    margin-left: 10px;
+    border: 1px solid rgb(247,147,33) ;
+    background-color: white;
+    color: rgb(247,147,33);
+    border-radius: 5px;
+    font-size: 17px;
+}
+.contact-btn:hover{
+    color: white;
+    background-color: orange;
+}
+.book-btn{
+    width: 156px;
+    height: 47px;
+    margin-left: 10px;
+    background-color: rgb(247,147,33);
+    color: white;
+    border: 1px solid rgb(247,147,33);
+    border-radius: 5px;
+    font-size: 17px;
+}
+.book-btn:hover{
+    background-color: orange;
+}

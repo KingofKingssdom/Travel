@@ -1,0 +1,115 @@
+.backgroundAirLine img{
+    height: 554px;
+    width: 100%;
+}
+/* Selection */
+.introduce{
+    height: 96px;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.order-ticket{
+    background-color: rgb(236,240,245);
+}
+.container-order-ticket{
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.box-ticket{
+    width: 366px;
+    height: 140px;
+    padding: 12px 8px;
+    background-color: white;
+    cursor: pointer;
+}
+.box-ticket:hover{
+    box-shadow: -3px 5px 15px 5px rgb(169, 167, 167);
+}
+.box-ticket-content1{
+    display: flex;
+    justify-content: space-between;
+}
+.box-ticket-content1 img {
+    height: 40px;
+    width: 86px;
+}
+.box-ticket-content2{
+    display: flex;
+    justify-content: space-between;
+}
+.button-see{
+    color: white;
+    background-color: rgb(247,147,33);
+    border: 1px solid rgb(247,147,33);
+    border-radius: 5px;
+    width: 58px;
+    height: 31px;
+}
+.container-contentNg{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+
+}
+.contentNg img {
+    width: 274px;
+    height: 364px;
+}
+.title-contentNg{
+    position: absolute;
+    color: white;
+    top: 210px;
+    padding: 0 7px;
+    overflow: hidden;
+    width: 274px;
+}
+.title-contentNg p {
+    font-size: 18px;
+}
+.container-information{
+    display: inline-block;
+}
+.content-child{
+    padding: 8px 150px;
+}
+.ci{
+    font-size: 30px;
+    padding-left: 30px;
+}
+.content-info{
+    width: 358px;
+    height: 71px;
+    background-color: white;
+    margin: 12px 31px;
+    padding: 15px 18px;
+    cursor: pointer;
+    font-size: 18px;
+}
+.container-dicription{
+    background-color: white;
+}
+/* #content1, #content2, #content3,#content4, #content5,#content6,
+#content7,#content6,#content8,#content9,#content10,#content11,#content12{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+} */
+.dript{
+    width: 770px;
+    
+}
+.bg-dript{
+    background-color: white;
+}
+.bg-dript img {
+    width: 353px;
+}
+.font-icon{
+    font-size: 30px;
+    margin-left: 30px;
+}
+.m{
+    background-color: white;
+}
