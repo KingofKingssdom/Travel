@@ -11,7 +11,7 @@ function Content(){
       <div className="col-3">
         <Link to="/Lang-Man">
         <Content2
-        image= "image/LangMan.png"
+        image= "./image/LangMan.png"
         name="Lãng mạn"
         content="Lãng mạn - chỉ có 2 ta giữa đất trời -"
         hotel="10 khách sạn"
