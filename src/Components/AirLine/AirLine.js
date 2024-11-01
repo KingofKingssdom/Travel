@@ -10,7 +10,7 @@ function AirLine(){
     return(
         <div>
         <div class="backgroundAirLine">
-            <img src="image/backgroundAirline.png" alt="background"/>
+            <img src="./image/backgroundAirline.png" alt="background"/>
         </div>
         <div class="introduce container">
             <div >

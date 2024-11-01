@@ -10,11 +10,11 @@ function Header(){
          <div className='logo'>
           <img src='./image/logo.png' alt='logo'/>
         </div> 
-        <div className='directionChild'>
+        {/* <div className='directionChild'>
           <Link  to="/"  className={activeItem === 'hotel' ? 'active' : ''}
             onClick={() => setActiveItem('hotel')}
           >Khách sạn</Link>
-        </div>
+        </div> */}
         <div className='directionChild'>
           <Link  to="/tourPage"  className={activeItem === 'tours' ? 'active' : ''}
           onClick={() => setActiveItem('tours')}
