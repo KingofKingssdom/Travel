@@ -1,12 +1,14 @@
 
 import Header from './Components/Common/Header';
 import Footer from './Components/Common/Footer';
-import Body from './Components/Common/Body';
+// import Body from './Components/Common/Body';
+import Hotel from './Components/Hotel/Hotel';
 function App() {
   return (
     <div>
       <Header/>
-      <Body/>
+      {/* <Body/> */}
+      <Hotel/>
       <Footer/>
     </div>
   );
