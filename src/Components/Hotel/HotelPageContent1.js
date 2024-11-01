@@ -3,7 +3,7 @@ import { Carousel } from 'react-bootstrap';
 function HotelPageContent1() {
   return (
     <div>
-      <img src="../images/backgroundHotel.png" alt="background" />
+      <img src="./images/backgroundHotel.png" alt="background" />
       <div className='container'>
         <h1>Combo tốt nhất hôm nay</h1>
         <span className="badge ti"> 318 khách đã đặt phòng trong 24h qua </span>
