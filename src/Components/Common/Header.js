@@ -1,5 +1,9 @@
 import {Link} from 'react-router-dom'
+import {Routes, Route} from 'react-router-dom'
 import React, { useState } from 'react';
+import Tour from './Components/Tour/Tour';
+import AirLine from './Components/AirLine/AirLine';
+ import Hotel from './Components/Hotel/Hotel';
 import './common.css'
 function Header(){
   const [activeItem, setActiveItem] = useState('hotel')
@@ -10,11 +14,11 @@ function Header(){
          <div className='logo'>
           <img src='./image/logo.png' alt='logo'/>
         </div> 
-        {/* <div className='directionChild'>
+         <div className='directionChild'>
           <Link  to="/"  className={activeItem === 'hotel' ? 'active' : ''}
             onClick={() => setActiveItem('hotel')}
           >Khách sạn</Link>
-        </div> */}
+        </div>
         <div className='directionChild'>
           <Link  to="/tourPage"  className={activeItem === 'tours' ? 'active' : ''}
           onClick={() => setActiveItem('tours')}
@@ -27,6 +31,11 @@ function Header(){
         </div>
     </div>
 </header>
+      <Routes>
+      <Route path='/' element={<Hotel/>}/> 
+        <Route path='/tourPage' element={<Tour/>}/>
+        <Route path='/airLinePage' element={<AirLine/>}/>
+      </Routes>
 </div>
     )
 }

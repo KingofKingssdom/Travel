@@ -1,7 +1,5 @@
 import {Routes, Route} from 'react-router-dom'
-import Tour from './Components/Tour/Tour';
-import AirLine from './Components/AirLine/AirLine';
- import Hotel from './Components/Hotel/Hotel';
+
  import PQHotel from './Components/Hotel/BookHotel/PQHotel';
  import DLHotel from './Components/Hotel/BookHotel/DLHotel';
  import QNHotel from './Components/Hotel/BookHotel/QNHotel';
@@ -21,9 +19,7 @@ function Body(){
     return(
         <div>
             <Routes>
-         <Route path='/' element={<Hotel/>}/> 
-        <Route path='/tourPage' element={<Tour/>}/>
-        <Route path='/airLinePage' element={<AirLine/>}/>
+         
         <Route path='/Phu-Quoc' element={<PQHotel/>}/>
         <Route path='/Da-Lat' element={<DLHotel/>}/>
         <Route path='/Quy-Nhon' element={<QNHotel/>}/>
