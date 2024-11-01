@@ -36,7 +36,7 @@ function AirLine(){
                     dayStart="06 thg 10"
                     end="Huế"
                     dayEnd="08 thg 10"
-                    image="image/VietJetAir.png"
+                    image="/image/VietJetAir.png"
                     price="1.361.200 VNĐ"
                     />
                     <TicketFrame
@@ -44,7 +44,7 @@ function AirLine(){
                     dayStart="13 thg 11"
                     end="Nha Trang"
                     dayEnd="15 thg 11"
-                    image="image/VietJetAir.png"
+                    image="/image/VietJetAir.png"
                     price="1.506.200 VNĐ"
                     />
                     <TicketFrame
@@ -52,7 +52,7 @@ function AirLine(){
                     dayStart="16 thg 12"
                     end="Đà Lạt"
                     dayEnd="18 thg 12"
-                    image="image/VietravelAirlines.png"
+                    image="/image/VietravelAirlines.png"
                     price="1.557.200 VNĐ"
                     />
                     
@@ -63,7 +63,7 @@ function AirLine(){
                     dayStart="15 thg 10"
                     end="Quy Nhơn"
                     dayEnd="17 thg 10"
-                    image="image/VietnamAirlines.png"
+                    image="/image/VietnamAirlines.png"
                     price="1.369.600 VNĐ"
                     />
                     <TicketFrame
@@ -71,7 +71,7 @@ function AirLine(){
                     dayStart="27 thg 10"
                     end="Đồng Hới"
                     dayEnd="29 thg 10"
-                    image="image/VietJetAir.png"
+                    image="/image/VietJetAir.png"
                     price="1.773.200 VNĐ"
                     />
                     <TicketFrame
@@ -79,7 +79,7 @@ function AirLine(){
                     dayStart="25 thg 10"
                     end="Hà Nội"
                     dayEnd="27 thg 10"
-                    image="image/VietnamAirlines.png"
+                    image="/image/VietnamAirlines.png"
                     price="1.361.200 VNĐ"
                     />
                     
@@ -90,7 +90,7 @@ function AirLine(){
                     dayStart="03 thg 11"
                     end="Đà Nẵng"
                     dayEnd="05 thg 11"
-                    image="image/VietravelAirlines.png"
+                    image="/image/VietravelAirlines.png"
                     price="2.009.200 VNĐ"
                     />
                     <TicketFrame
@@ -98,7 +98,7 @@ function AirLine(){
                     dayStart="27 thg 10"
                     end="Phú Quốc"
                     dayEnd="30 thg 10"
-                    image="image/VietnamAirlines.png"
+                    image="/image/VietnamAirlines.png"
                     price="2.030.000 VNĐ"
                     />
                     <TicketFrame
@@ -106,7 +106,7 @@ function AirLine(){
                     dayStart="01 thg 12"
                     end="Đà Nẵng"
                     dayEnd="03 thg 12"
-                    image="image/VietnamAirlines.png"
+                    image="/image/VietnamAirlines.png"
                     price="2.177.600 VNĐ"
                     />
                     
@@ -117,7 +117,7 @@ function AirLine(){
                     dayStart="06 thg 10"
                     end="Hải Phòng"
                     dayEnd="08 thg 10"
-                    image="image/VietJetAir.png"
+                    image="/image/VietJetAir.png"
                     price="2.244.200 VNĐ"
                     />
                     <TicketFrame
@@ -125,7 +125,7 @@ function AirLine(){
                     dayStart="06 thg 10"
                     end="Đà Nẵng"
                     dayEnd="08 thg 10"
-                    image="image/VietJetAir.png"
+                    image="/image/VietJetAir.png"
                     price="2.361.200 VNĐ"
                     />
                     <TicketFrame
@@ -133,7 +133,7 @@ function AirLine(){
                     dayStart="13 thg 01"
                     end="Nha Trang"
                     dayEnd="15 thg 01"
-                    image="image/VietravelAirlines.png"
+                    image="/image/VietravelAirlines.png"
                     price="2.236.200 VNĐ"
                     />
                     
