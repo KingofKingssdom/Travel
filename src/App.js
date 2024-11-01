@@ -23,9 +23,9 @@ function App() {
   return (
     <div>
       <Header/>
-    
+      <Hotel/>
       <Routes>
-        <Route path='/' element={<Hotel/>}/>
+        {/* <Route path='/' element={<Hotel/>}/> */}
         <Route path='/tourPage' element={<Tour/>}/>
         <Route path='/airLinePage' element={<AirLine/>}/>
         <Route path='/Phu-Quoc' element={<PQHotel/>}/>
