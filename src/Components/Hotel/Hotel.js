@@ -53,7 +53,7 @@ function Hotel(){
       </div>
       <HotelPageContent3/>
     </div>
-        
+     
     )
     
 }

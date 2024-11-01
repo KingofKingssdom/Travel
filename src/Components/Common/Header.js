@@ -1,9 +1,5 @@
 import {Link} from 'react-router-dom'
-import {Routes, Route} from 'react-router-dom'
 import React, { useState } from 'react';
-import Tour from './Components/Tour/Tour';
-import AirLine from './Components/AirLine/AirLine';
- import Hotel from './Components/Hotel/Hotel';
 import './common.css'
 function Header(){
   const [activeItem, setActiveItem] = useState('hotel')
@@ -30,12 +26,8 @@ function Header(){
           >Vé máy bay</Link>
         </div>
     </div>
-</header>
-      <Routes>
-      <Route path='/' element={<Hotel/>}/> 
-        <Route path='/tourPage' element={<Tour/>}/>
-        <Route path='/airLinePage' element={<AirLine/>}/>
-      </Routes>
+  </header>
+      
 </div>
     )
 }

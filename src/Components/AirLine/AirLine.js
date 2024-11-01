@@ -10,7 +10,7 @@ function AirLine(){
     return(
         <div>
         <div class="backgroundAirLine">
-            <img src={process.env.PUBLIC_URL + "/image/backgroundAirline.png"} alt="background"/>
+            <img src="/image/backgroundAirline.png" alt="background"/>
         </div>
         <div class="introduce container">
             <div >
@@ -145,21 +145,21 @@ function AirLine(){
                         <Carousel.Item>
                             <img
                             className="d-block w-100"
-                            src="image/bannerAirLine1.png"
+                            src="/image/bannerAirLine1.png"
                             alt="First slide"
                             />
                         </Carousel.Item>
                         <Carousel.Item>
                             <img
                             className="d-block w-100"
-                            src="image/bannerAirLine2.png"
+                            src="/image/bannerAirLine2.png"
                             alt="Second slide"
                             />
                         </Carousel.Item>
                         <Carousel.Item>
                             <img
                             className="d-block w-100"
-                            src="image/bannerAirLine3.png"
+                            src="/image/bannerAirLine3.png"
                             alt="Third slide"
                             />
                         </Carousel.Item>
@@ -175,7 +175,7 @@ function AirLine(){
                     dayStart="10 thg 10"
                     end="Kuala Lumpur"
                     dayEnd="12 thg 10"
-                    image="image/malindoAir.png"
+                    image="/image/malindoAir.png"
                     price="2.944.200 VNĐ"
                     />
                     <TicketFrame
@@ -183,7 +183,7 @@ function AirLine(){
                     dayStart="13 thg 01"
                     end="Kuala Lumpur"
                     dayEnd="15 thg 01"
-                    image="image/VietravelAirlines.png"
+                    image="/image/VietravelAirlines.png"
                     price="3.000.000 VNĐ"
                     />
                     <TicketFrame
@@ -191,7 +191,7 @@ function AirLine(){
                     dayStart="06 thg 10"
                     end="Bankkok"
                     dayEnd="08 thg 10"
-                    image="image/VietJetAir.png"
+                    image="/image/VietJetAir.png"
                     price="3.004.000 VNĐ"
                     />
                     
@@ -202,7 +202,7 @@ function AirLine(){
                     dayStart="06 thg 10"
                     end="Bankkok"
                     dayEnd="08 thg 10"
-                    image="image/VietravelAirlines.png"
+                    image="/image/VietravelAirlines.png"
                     price="2.244.200 VNĐ"
                     />
                     <TicketFrame
@@ -210,7 +210,7 @@ function AirLine(){
                     dayStart="13 thg 01"
                     end="Singapore"
                     dayEnd="15 thg 01"
-                    image="image/VietJetAir.png"
+                    image="/image/VietJetAir.png"
                     price="3.475.000 VNĐ"
                     />
                     <TicketFrame
@@ -218,7 +218,7 @@ function AirLine(){
                     dayStart="06 thg 10"
                     end="Singapore"
                     dayEnd="08 thg 10"
-                    image="image/malindoAir.png"
+                    image="/image/malindoAir.png"
                     price="3.461.200 VNĐ"
                     />
                     
@@ -230,7 +230,7 @@ function AirLine(){
                     dayStart="15 thg 10"
                     end="Seoul"
                     dayEnd="20 thg 10"
-                    image="image/VietJetAir.png"
+                    image="/image/VietJetAir.png"
                     price="3.719.000 VNĐ"
                     />
                     <TicketFrame
@@ -238,7 +238,7 @@ function AirLine(){
                     dayStart="17 thg 10"
                     end="Seoul"
                     dayEnd="20 thg 10"
-                    image="image/VietJetAir.png"
+                    image="/image/VietJetAir.png"
                     price="3.879.000 VNĐ"
                     />
                     <TicketFrame
@@ -246,7 +246,7 @@ function AirLine(){
                     dayStart="06 thg 10"
                     end="Đài Bắc"
                     dayEnd="11 thg 10"
-                    image="image/VietJetAir.png"
+                    image="/image/VietJetAir.png"
                     price="4.461.200 VNĐ"
                     />
                     
@@ -257,7 +257,7 @@ function AirLine(){
                     dayStart="04 thg 11"
                     end="Bắc Kinh"
                     dayEnd="08 thg 11"
-                    image="image/malindoAir.png"
+                    image="/image/malindoAir.png"
                     price="4.522.000 VNĐ"
                     />
                     <TicketFrame
@@ -265,7 +265,7 @@ function AirLine(){
                     dayStart="23 thg 10"
                     end="Qingdao"
                     dayEnd="27 thg 10"
-                    image="image/VietJetAir.png"
+                    image="/image/VietJetAir.png"
                     price="4.475.000 VNĐ"
                     />
                     <TicketFrame
@@ -273,7 +273,7 @@ function AirLine(){
                     dayStart="16 thg 10"
                     end="Hàng Châu"
                     dayEnd="20 thg 10"
-                    image="image/malindoAir.png"
+                    image="/image/malindoAir.png"
                     price="3.461.200 VNĐ"
                     />
                     
@@ -285,7 +285,7 @@ function AirLine(){
                 <div className='container-contentNg'>
                 <div className='contentNg'>
                 <AirLineChildren2 
-                    image="image/cover1.png"
+                    image="/image/cover1.png"
                     title="Du học"
                     content="Đặt vé máy bay du học giá đặc biệt, không bỏ lỡ ưu đãi riêng cho du học sinh"
                 />
@@ -293,21 +293,21 @@ function AirLine(){
                 <div className='contentNg'>
 
                 <AirLineChildren2 
-                    image="image/cover2.png"
+                    image="/image/cover2.png"
                     title="Định cư"
                     content="Săn vé giá rẻ cho người định cư. Liên hệ với chúng tôi ngay hôm nay!"
                 />
                 </div>
                 <div className='contentNg'>
                 <AirLineChildren2 
-                    image="image/cover3.png"
+                    image="/image/cover3.png"
                     title="Làm việc"
                     content="Giá vé đặc biệt cho cô dâu định cư và người suất khẩu lao động"
                 />
                 </div>
                 <div className='contentNg'>
                 <AirLineChildren2 
-                    image="image/cover4.png"
+                    image="/image/cover4.png"
                     title="Săn vé"
                     content="Vé máy bay giá rẻ du lịch và thăm thân nhân ở Mỹ, Canada. Chat để tư vấn miễn phí"
                 />
