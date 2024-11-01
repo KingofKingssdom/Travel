@@ -3,10 +3,10 @@ import { IoIosStar } from "react-icons/io";
 function HotelCommonChildren(props){
     return (
         <div>
-            <a href="">
+            <a href="#s">
                     <div className="card">
                         <div className="box-img">
-                            <img src={props.image} alt=""/>
+                            <img src={props.image} alt="ItemCommon"/>
                         </div>
                         
                         <div className="card-content">

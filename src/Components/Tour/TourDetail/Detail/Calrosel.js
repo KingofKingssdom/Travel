@@ -18,7 +18,7 @@ const Calsorel = ({images})=>{
         };
     return(
         <div>
-             <img src={images[currentIndex]} alt=""/>
+             <img src={images[currentIndex]} alt="itemCommon"/>
              <div className="button-calrosel">
              <button onClick={goToPrevious} id="prev"><FaArrowLeft /></button>     
              <button onClick={goToNext} id="next"><FaArrowRight /></button>

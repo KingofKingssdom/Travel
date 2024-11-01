@@ -1,5 +1,6 @@
+import { Carousel } from 'react-bootstrap';
 import './AirLine.css'
-import AirLineChildren from './AirLineChildren';
+import TicketFrame from './TicketFrame';
 import AirLineChildren2 from './AirLineChildren2';
 import ContentInfor from './info';
 
@@ -9,7 +10,7 @@ function AirLine(){
     return(
         <div>
         <div class="backgroundAirLine">
-            <img src="image/backgroundAirline.png" alt=""/>
+            <img src="image/backgroundAirline.png" alt="background"/>
         </div>
         <div class="introduce container">
             <div >
@@ -30,7 +31,7 @@ function AirLine(){
                 <h1>Vé máy bay nội địa ưu đãi nhất</h1>
                 <p>Giá vé siêu tiết kiệm từ Vietnam Airlines, Bamboo Airways, Vietjet, Vietravel Airlines</p>
                 <div className="container-order-ticket">
-                    <AirLineChildren
+                    <TicketFrame
                     start="Hà Nội"
                     dayStart="06 thg 10"
                     end="Huế"
@@ -38,7 +39,7 @@ function AirLine(){
                     image="image/VietJetAir.png"
                     price="1.361.200 VNĐ"
                     />
-                    <AirLineChildren
+                    <TicketFrame
                     start="Hồ Chí Minh"
                     dayStart="13 thg 11"
                     end="Nha Trang"
@@ -46,7 +47,7 @@ function AirLine(){
                     image="image/VietJetAir.png"
                     price="1.506.200 VNĐ"
                     />
-                    <AirLineChildren
+                    <TicketFrame
                     start="Hồ Chí Minh"
                     dayStart="16 thg 12"
                     end="Đà Lạt"
@@ -57,7 +58,7 @@ function AirLine(){
                     
                 </div>
                 <div className="container-order-ticket">
-                    <AirLineChildren
+                    <TicketFrame
                     start="Hồ Chí Minh"
                     dayStart="15 thg 10"
                     end="Quy Nhơn"
@@ -65,7 +66,7 @@ function AirLine(){
                     image="image/VietnamAirlines.png"
                     price="1.369.600 VNĐ"
                     />
-                    <AirLineChildren
+                    <TicketFrame
                     start="Hồ Chí Minh"
                     dayStart="27 thg 10"
                     end="Đồng Hới"
@@ -73,7 +74,7 @@ function AirLine(){
                     image="image/VietJetAir.png"
                     price="1.773.200 VNĐ"
                     />
-                    <AirLineChildren
+                    <TicketFrame
                     start="Hồ Chí Minh"
                     dayStart="25 thg 10"
                     end="Hà Nội"
@@ -84,7 +85,7 @@ function AirLine(){
                     
                 </div>
                 <div className="container-order-ticket">
-                    <AirLineChildren
+                    <TicketFrame
                     start="Cần Thơ"
                     dayStart="03 thg 11"
                     end="Đà Nẵng"
@@ -92,7 +93,7 @@ function AirLine(){
                     image="image/VietravelAirlines.png"
                     price="2.009.200 VNĐ"
                     />
-                    <AirLineChildren
+                    <TicketFrame
                     start="Hồ Chí Minh"
                     dayStart="27 thg 10"
                     end="Phú Quốc"
@@ -100,7 +101,7 @@ function AirLine(){
                     image="image/VietnamAirlines.png"
                     price="2.030.000 VNĐ"
                     />
-                    <AirLineChildren
+                    <TicketFrame
                     start="Hà Nội"
                     dayStart="01 thg 12"
                     end="Đà Nẵng"
@@ -111,7 +112,7 @@ function AirLine(){
                     
                 </div>
                 <div className="container-order-ticket">
-                    <AirLineChildren
+                    <TicketFrame
                     start="Đà Nẵng"
                     dayStart="06 thg 10"
                     end="Hải Phòng"
@@ -119,7 +120,7 @@ function AirLine(){
                     image="image/VietJetAir.png"
                     price="2.244.200 VNĐ"
                     />
-                    <AirLineChildren
+                    <TicketFrame
                     start="Hồ Chí Minh"
                     dayStart="06 thg 10"
                     end="Đà Nẵng"
@@ -127,7 +128,7 @@ function AirLine(){
                     image="image/VietJetAir.png"
                     price="2.361.200 VNĐ"
                     />
-                    <AirLineChildren
+                    <TicketFrame
                     start="Hà Nội"
                     dayStart="13 thg 01"
                     end="Nha Trang"
@@ -140,31 +141,36 @@ function AirLine(){
                 <div>
                     <h1>Khuyến mãi và ưu đãi</h1>
                     <p>Tận hưởng ưu đãi - Trải nghiệm thoải mái</p>
-                    <div id="carouselExampleIndicators" class="carousel slide">
-                        <div class="carousel-indicators">
-                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                        </div>
-                        <div class="carousel-inner">
-                          <div class="carousel-item active">
-                            <img src="image/bannerAirLine1.png" class="d-block w-100" alt=""/>
-                          </div>
-                          <div class="carousel-item">
-                            <img src="image/bannerAirLine2.png" class="d-block w-100" alt=""/>
-                          </div>
-                          <div class="carousel-item">
-                            <img src="image/bannerAirLine3.png" class="d-block w-100" alt=""/>
-                          </div>
-                        </div>
-                    </div>
+                    <Carousel interval={5000} controls={true} indicators={true}>
+                        <Carousel.Item>
+                            <img
+                            className="d-block w-100"
+                            src="image/bannerAirLine1.png"
+                            alt="First slide"
+                            />
+                        </Carousel.Item>
+                        <Carousel.Item>
+                            <img
+                            className="d-block w-100"
+                            src="image/bannerAirLine2.png"
+                            alt="Second slide"
+                            />
+                        </Carousel.Item>
+                        <Carousel.Item>
+                            <img
+                            className="d-block w-100"
+                            src="image/bannerAirLine3.png"
+                            alt="Third slide"
+                            />
+                        </Carousel.Item>
+                    </Carousel>
                 </div>
                 <div>
                     <h1>Giá vé Quốc tế tốt nhất</h1>
                     <p>Giá vé cạnh tranh từ các hãng bay quốc tế uy tính như Vietnam Airlines, Singapore Airlines và EVA Air</p>
                     <h3>ĐÔNG NAM Á</h3>
                     <div className="container-order-ticket">
-                    <AirLineChildren
+                    <TicketFrame
                     start="Đà Nẵng"
                     dayStart="10 thg 10"
                     end="Kuala Lumpur"
@@ -172,7 +178,7 @@ function AirLine(){
                     image="image/malindoAir.png"
                     price="2.944.200 VNĐ"
                     />
-                    <AirLineChildren
+                    <TicketFrame
                     start="Hà Nội"
                     dayStart="13 thg 01"
                     end="Kuala Lumpur"
@@ -180,7 +186,7 @@ function AirLine(){
                     image="image/VietravelAirlines.png"
                     price="3.000.000 VNĐ"
                     />
-                    <AirLineChildren
+                    <TicketFrame
                     start="Hồ Chí Minh"
                     dayStart="06 thg 10"
                     end="Bankkok"
@@ -191,7 +197,7 @@ function AirLine(){
                     
                     </div>
                     <div className="container-order-ticket">
-                    <AirLineChildren
+                    <TicketFrame
                     start="Hà Nội"
                     dayStart="06 thg 10"
                     end="Bankkok"
@@ -199,7 +205,7 @@ function AirLine(){
                     image="image/VietravelAirlines.png"
                     price="2.244.200 VNĐ"
                     />
-                    <AirLineChildren
+                    <TicketFrame
                     start="Hà Nội"
                     dayStart="13 thg 01"
                     end="Singapore"
@@ -207,7 +213,7 @@ function AirLine(){
                     image="image/VietJetAir.png"
                     price="3.475.000 VNĐ"
                     />
-                    <AirLineChildren
+                    <TicketFrame
                     start="Hồ Chí Minh"
                     dayStart="06 thg 10"
                     end="Singapore"
@@ -219,7 +225,7 @@ function AirLine(){
                     </div>
                     <h3>ĐÔNG BẮC Á VÀ TRUNG Á</h3>
                     <div className="container-order-ticket">
-                    <AirLineChildren
+                    <TicketFrame
                     start="Đà Nẵng"
                     dayStart="15 thg 10"
                     end="Seoul"
@@ -227,7 +233,7 @@ function AirLine(){
                     image="image/VietJetAir.png"
                     price="3.719.000 VNĐ"
                     />
-                    <AirLineChildren
+                    <TicketFrame
                     start="Hồ Chí Minh"
                     dayStart="17 thg 10"
                     end="Seoul"
@@ -235,7 +241,7 @@ function AirLine(){
                     image="image/VietJetAir.png"
                     price="3.879.000 VNĐ"
                     />
-                    <AirLineChildren
+                    <TicketFrame
                     start="Hồ Chí Minh"
                     dayStart="06 thg 10"
                     end="Đài Bắc"
@@ -246,7 +252,7 @@ function AirLine(){
                     
                     </div>
                     <div className="container-order-ticket">
-                    <AirLineChildren
+                    <TicketFrame
                     start="Hồ Chí Minh"
                     dayStart="04 thg 11"
                     end="Bắc Kinh"
@@ -254,7 +260,7 @@ function AirLine(){
                     image="image/malindoAir.png"
                     price="4.522.000 VNĐ"
                     />
-                    <AirLineChildren
+                    <TicketFrame
                     start="Hồ Chí Minh"
                     dayStart="23 thg 10"
                     end="Qingdao"
@@ -262,7 +268,7 @@ function AirLine(){
                     image="image/VietJetAir.png"
                     price="4.475.000 VNĐ"
                     />
-                    <AirLineChildren
+                    <TicketFrame
                     start="Hồ Chí Minh"
                     dayStart="16 thg 10"
                     end="Hàng Châu"

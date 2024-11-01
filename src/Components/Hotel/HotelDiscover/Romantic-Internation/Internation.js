@@ -5,7 +5,7 @@ function Internation(){
     return(
         <div>
             <div className="backgroundAirLine">
-            <img src="image/background-internationalHotel.jpg" alt=""/>
+            <img src="image/background-internationalHotel.jpg" alt="background"/>
         </div>
         <div className="title">
             <p>Bạn đang tìm kiếm trải nghiệm du lịch nào?</p>

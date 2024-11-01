@@ -27,24 +27,24 @@ function Footer(){
               <div className="footerPannel">
                   <p>Thành viên của </p>
                   <h6>Đức Nam Group</h6>
-                  <img src="image/tmg.png"/>
+                  <img src="image/tmg.png" alt="tmg"/>
               </div>   
               <div className="footerPannel">
                   <h6>Đã được chứng nhận</h6>
-                  <img src="image/bocongthuong.png"/>
+                  <img src="image/bocongthuong.png" alt="boCongThuong"/>
               </div>         
             </div>
             <div className="removeSpacing1">
                 <div className="footerPannel1">
-                    <img src="image/winner.logo.png"/>
+                    <img src="image/winner.logo.png" alt="winnerLogo"/>
                      <h6>Đại lý du lịch hàng đầu Việt Nam</h6>
                 </div>
                 <div className="footerPannel1">
-                    <img src="image/apea.png"/>
+                    <img src="image/apea.png" alt="apeaLogo"/>
                      <h6>Best companies to work for in Asia</h6>
                 </div>
                 <div className="footerPannel1">
-                    <img src="image/hraa-logo.png"/>
+                    <img src="image/hraa-logo.png" alt="hraaLogo"/>
                      <h6>Đại lý du lịch hàng đầu Việt Nam</h6>
                 </div>
             </div>

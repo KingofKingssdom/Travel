@@ -17,7 +17,7 @@ function ContentInfor(){
                                 <p>- Em bé dưới 30 ngày tuổi, khi đi máy bay cần phải có giấy chứng sinh. Em bé từ 31 ngày tuổi 
                                     trở lên, khi đi máy bay cần phải có giấy khai sinh/ trích lục khai sinh.</p>
                             </div>
-                            <img src="image/dript9.png" alt=""/>
+                            <img src="image/dript9.png" alt="dript9"/>
                         </div>
         )
       },
@@ -42,7 +42,7 @@ function ContentInfor(){
                   thoại di động trên máy bay và cho phép sử dụng một số thiết bị điện tử khác sau khi máy bay đã ổn định độ cao.
               </p>
           </div>
-          <img src="image/dript10.png" alt=""/>
+          <img src="image/dript10.png" alt="drip10"/>
       </div>
         )
       },
@@ -68,7 +68,7 @@ function ContentInfor(){
                                     trở lên sẽ bị từ chối vận chuyển. Trong một số trường hợp đặc biệt, hành khách cần liên hệ 
                                     trực tiếp hãng hàng không để được hỗ trợ.</p>
                             </div>
-                            <img src="image/dript11.png" alt=""/>
+                            <img src="image/dript11.png" alt="dript11"/>
                         </div>
         )
       },
@@ -88,7 +88,7 @@ function ContentInfor(){
                                     hãng ghi nhận không thực hiện chặng đi và yêu cầu giữ nguyên chặng về.</p>    
                                 <p>Hành khách cần thông báo đến hãng hàng không trước giờ khởi hành ít nhất 06 tiếng để không ảnh hưởng đến chuyến bay còn lại của hành trình.</p>
                             </div>
-                            <img src="image/dript12.png" alt=""/>
+                            <img src="image/dript12.png" alt="dript12"/>
                         </div>
         )
       }
@@ -117,7 +117,7 @@ function ContentInfor(){
                                   <p>- Có ảnh đóng dấu giáp lai, trừ giấy khai sinh, giấy chứng sinh của trẻ em, thẻ kiểm soát an ninh, thẻ nhận dạng của các hãng 
                                       hàng không.</p>
                           </div>
-                          <img src="image/dript5.png" alt=""/>
+                          <img src="image/dript5.png" alt="dript5"/>
                       </div>
           ),
       },
@@ -134,7 +134,7 @@ function ContentInfor(){
                 <p>Giấy xác nhận nhân thân cần được xác nhận trong vòng 07 ngày so với ngày khởi hành của chuyến bay.</p>   
             
             </div>
-            <img src="image/dript6.png" alt=""/>
+            <img src="image/dript6.png" alt="dript6"/>
         </div>
           ),
       },
@@ -172,7 +172,7 @@ function ContentInfor(){
                                
                             
                             </div>
-                            <img src="image/dript7.png" alt=""/>
+                            <img src="image/dript7.png" alt="dript7"/>
                         </div>
         )
       },
@@ -193,7 +193,7 @@ function ContentInfor(){
                                 <p>Hành khách cần lưu ý, tất cả các hành lý và phụ kiện, vật dụng cá nhân cần đảm bảo đúng trọng lượng quy định. Vượt quá 
                                     trọng lượng sẽ buộc phải mua thêm hành lý phát sinh tại sân bay.</p>
                             </div>
-                            <img src="image/dript8.png" alt=""/>
+                            <img src="image/dript8.png" alt="dript8"/>
                         </div>
         )
       }
@@ -216,7 +216,7 @@ function ContentInfor(){
                                 <p>- Thời gian đóng cửa lên máy bay (kết thúc nhận hành khách) trước 30 phút so với giờ khởi hành</p>
                                 <p>Việc đến sân bay sớm theo quy định của Hãng sẽ giúp hành khách có sự chủ động và có thể có thêm thời gian để xử lý các vấn đề bất khả kháng (Nếu có) xảy ra.</p>
                             </div>
-                            <img src="image/dript1.png" alt=""/>
+                            <img src="image/dript1.png" alt="dript1"/>
                         </div>
             ),
         },
@@ -240,7 +240,7 @@ function ContentInfor(){
                                     check in online vẫn có thể được yêu cầu đến quầy làm thủ tục để được
                                      kiểm tra các thông tin liên quan.</p>
                             </div>
-                            <img src="image/dript2.png" alt=""/>
+                            <img src="image/dript2.png" alt="dript2"/>
                         </div>
             ),
         },
@@ -265,7 +265,7 @@ function ContentInfor(){
                                     với iVIVU.com trước ít nhất 06 tiếng so với giờ khởi hành (trong giờ hành chính)
                                 </p>
                             </div>
-                            <img  src="image/dript3.png" alt=""/>
+                            <img  src="image/dript3.png" alt="dript3"/>
                         </div>
           )
         },
@@ -285,7 +285,7 @@ function ContentInfor(){
                                   <p>- Bố mẹ hoặc người thân, người được ủy quyền cần đăng ký dịch vụ trẻ em bay 1 mình trước ít nhất 24 - 36 tiếng so 
                                     với giờ khởi hành tại các Phòng Vé chính hãng</p>      
                             </div>
-                            <img src="image/dript4.png" alt=""/>
+                            <img src="image/dript4.png" alt="dript4"/>
                         </div>
           )
         },

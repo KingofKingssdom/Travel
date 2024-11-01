@@ -1,16 +1,16 @@
 import React from "react";
 import './HotelDetail.css';
-import HotelChildren from "./HotelChildren";
+import BookHotelFrame from "./BookHotelFrame";
 
-function HotelNT(){
+function DLHotel(){
     return(
         <div className="container">
-          <h1>Khách sạn Nha Trang</h1>
+          <h1>Khách sạn Đà Lạt</h1>
           <div className="row">
           <div class="col-xs-12 col-md 3 sidebar-left">
                 <div class="cs">
                     <div class="img-wrapper">
-                        <img src="image/img-the.png" alt=""/>
+                        <img src="image/img-the.png" alt="Reception"/>
                     </div>
                     <div>
                         <h5>Cần hỗ trợ ?</h5>
@@ -30,55 +30,55 @@ function HotelNT(){
                 </div>
             </div>
             <div class="col-xs-12 col-md-9">
-               <HotelChildren
-                title = "Còn 80 ngày | Combo 3N2Đ | Vé máy bay + Đưa đón + Buffet sáng + Villa bể bơi"
-                image="image/pill-item-nt1.png"
-                name="Khu nghỉ dưỡng Six Senses Ninh Vân Bay"
+               <BookHotelFrame
+                title = " Còn 80 ngày | Combo 3N2Đ | Vé máy bay + Đưa đón + Buffet sáng"
+                image="image/pill-item-dl1.png"
+                name="Hotel Colline Đà Lạt"
                 score="9.3"
                 text="Tuyệt vời"
                 count= "678 đánh giá"
                 tag1="Châu Âu"
                 tag2="Hiện đại"
                 tag3="Phù hợp cho hội họp"
-                item1= "Biệt lập trên vịnh Ninh Vân"
-                item2="View thân thiện"
-                price="2.351.000 VNĐ"
+                item1= "Khách sạn mới"
+                item2="Gần chợ Đà Lạt"
+                price="4.351.000 VNĐ"
                />
 
-                <HotelChildren
-                title = "Còn 24 ngày | Combo 3N2Đ | Vé máy bay + Đưa đón + Buffet sáng "
-                image="image/pill-item-nt2.png"
-                name="Melia Vinpearl Cam Ranh Beach Resort  "
-                score="9.6"
+                <BookHotelFrame
+                title = "Còn 64 ngày | Combo 3N2Đ | Vé máy bay + Đưa đón + Buffet sáng"
+                image="image/pill-item-dl2.png"
+                name="Khu nghỉ dưỡng Ana Mandara Villas"
+                score="9.3"
                 text="Tuyệt vời"
                 count= "267 đánh giá"
                 tag1="Gần gũi với thiên nhiên"
                 tag2="Thương hiệu quốc tế "
                 tag3="Hiện đại"
-                item1= "Bãi biển riêng"
-                item2="Villa gia đình riêng cao cấp"
+                item1= "Biệt thự cổ"
+                item2="Đông Dương"
                 price="1.251.000 VNĐ"
                />
 
-                <HotelChildren
-                title = "Còn 24 ngày | Combo 3N2Đ | Vé máy bay + Đưa đón + Buffet sáng"
-                image="image/pill-item-vt2.png"
-                name="Khu nghỉ dưỡng Imperial Vũng Tàu"
+                <BookHotelFrame
+                title = "Còn 45 ngày | Combo 3N2Đ | Vé máy bay + Đưa đón + Buffet sáng"
+                image="image/pill-item-dl3.png"
+                name="Khu nghỉ dưỡng Đà Lạt Wonder"
                 score="9.0"
                 text="Tuyệt vời"
                 count= "496 đánh giá"
                 tag1="Gần gũi với thiên nhiên"
                 tag2="Châu Âu"
                 tag3="Chụp ảnh đẹp"
-                item1= "Hồ bơi ngoài trời"
-                item2="Villa riêng cao cấp"
+                item1= "Biệt thự nghỉ dưỡng"
+                item2="Cảnh đẹp xung quanh"
                 price="1.351.000 VNĐ"
                />
 
-              <HotelChildren
-                title = "Còn 45 ngày | Combo 3N2Đ | Vé máy bay + Đưa đón + Buffet sáng + Villa bể bơi"
-                image="image/pill-item-nt3.png"
-                name="Nha Trang Marriott Resort & Spa, Hon Tre Island"
+              <BookHotelFrame
+                title = "Còn 45 ngày | Combo 3N2Đ | Vé máy bay + Đưa đón + Buffet sáng"
+                image="image/pill-item-dl4.png"
+                name="Khu nghỉ dưỡng Mercure Đà Lạt"
                 score="9.8"
                 text="Tuyệt vời"
                 count= "246 đánh giá"
@@ -90,25 +90,25 @@ function HotelNT(){
                 price="2.450.000 VNĐ"
                />
 
-              <HotelChildren
-                title = "Còn 45 ngày | Combo 3N2Đ | Vé máy bay + Đưa đón + Buffet sáng + Villa bể bơi"
-                image="image/pill-item-nt4.png"
-                name="Khu nghỉ dưỡng Movenpick Cam Ranh"
+              <BookHotelFrame
+                title = "Còn 24 ngày | Combo 3N2Đ | Vé máy bay + Đưa đón + Buffet sáng"
+                image="image/pill-item-dl5.png"
+                name="Khách sạn Golden Imperial Đà Lạt "
                 score="9.7"
                 text="Tuyệt vời"
                 count= "346 đánh giá"
                 tag1="Gần gũi với thiên nhiên"
                 tag2="Hiện đại"
                 tag3="Chụp ảnh đẹp"
-                item1= "Bãi biển riêng"
-                item2="Tất cả các phòng hướng biển"
+                item1= "Gần Quảng trường Đà Lạt"
+                item2="Trung tâm Thành phố"
                 price="2.158.000 VNĐ"
                />
 
-              <HotelChildren
-                title = "Còn 84 ngày | Combo 3N2Đ | Vé máy bay + Đưa đón + Buffet sáng + Villa bể bơi"
-                image="image/pill-item-nt5.png"
-                name="Khu nghỉ dưỡng Selectum Noa Cam Ranh"
+              <BookHotelFrame
+                title = "Còn 74 ngày | Combo 3N2Đ | Vé máy bay + Đưa đón + Buffet sáng + Villa bể bơi"
+                image="image/pill-item6.png"
+                name="Khách sạn VinHolidays Fiesta Phú Quốc"
                 score="9.1"
                 text="Tuyệt vời"
                 count= "508 đánh giá"
@@ -119,45 +119,45 @@ function HotelNT(){
                 tag5="Thương hiệu quốc tế"
                 item1= "Trong tổ hợp Grand World"
                 item2="Dễ dàng khám phá"
+                price="500.000 VNĐ"
+               />
+
+              <BookHotelFrame
+                title = "Còn 90 ngày | Combo 3N2Đ | Vé máy bay + Đưa đón + Buffet sáng"
+                image="image/pill-item-dl6.png"
+                name="Khách sạn The Western Hill Đà Lạt"
+                score="9.7"
+                text="Tuyệt vời"
+                count= "108 đánh giá"
+                tag1="Gần gũi với thiên nhiên"
+                tag2="Châu Âu"
+                tag3="Đầy đủ tiện nghi"
+                tag4="Chụp ảnh đẹp"
+                tag5="Thương hiệu quốc tế"
+                item1= "Vị trí thuận tiện"
+                item2="Bốn mặt nhìn ra thiên nhiên"
                 price="2.500.000 VNĐ"
                />
 
-            <HotelChildren
-                title = "Còn 90 ngày | Combo 3N2Đ | Vé máy bay + Đưa đón + Buffet sáng"
-                image="image/pill-item-nt6.png"
-                name="Vinpearl Resort & Spa Nha Trang Bay"
-                score="9.1"
+              <BookHotelFrame
+                title = "Còn 54 ngày | Combo 3N2Đ | Vé máy bay + Đưa đón + Buffet sáng"
+                image="image/pill-item-dl7.png"
+                name="Khách sạn Sandals LiLy Đà Lạt"
+                score="9.7"
                 text="Tuyệt vời"
-                count= "100 đánh giá"
+                count= "341 đánh giá"
                 tag1="Gần gũi với thiên nhiên"
                 tag2="Châu Âu"
-                tag3="Nghỉ dưỡng biển"
+                tag3="Tiện nghi"
                 tag4="Chụp ảnh đẹp"
                 tag5="Thương hiệu quốc tế"
-                item1= "Trong tổ hợp Grand World"
-                item2="Dễ dàng khám phá"
-                price="3.500.000 VNĐ"
-               />
-
-            <HotelChildren
-                title = "Còn 90 ngày | Combo 3N2Đ | Vé máy bay + Đưa đón + Buffet sáng"
-                image="image/pill-item-nt7.png"
-                name="Khu nghỉ dưỡng hòn tằm Nha Trang"
-                score="9.1"
-                text="Tuyệt vời"
-                count= "508 đánh giá"
-                tag1="Gần gũi với thiên nhiên"
-                tag2="Châu Âu"
-                tag3="Nghỉ dưỡng biển"
-                tag4="Chụp ảnh đẹp"
-                tag5="Thương hiệu quốc tế"
-                item1= "Trong tổ hợp Grand World"
-                item2="Dễ dàng khám phá"
-                price="1.500.000 VNĐ"
+                item1= "Khách Sạn mới"
+                item2="Gần chợ Đà Lạt"
+                price="2.500.000 VNĐ"
                />
             </div>
           </div>
         </div>
     )
 }
-export default HotelNT;
+export default DLHotel;

@@ -6,7 +6,7 @@ function TourIntroduce(props){
 
             <div className="panel-container">
                 <div className="panel-left">
-                    <img src={props.image} alt=""/>
+                    <img src={props.image} alt="itemCommon"/>
                 </div>
                 <div className="panel-center">
                     <p>{props.day}</p>

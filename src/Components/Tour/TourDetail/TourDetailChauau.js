@@ -114,11 +114,11 @@ function TourDetailChauau(){
                                         <p><b>Arc De Triomphe – Khải Hoàn Môn</b>: Một công trình kiến trúc biểu tượng cho lịch sử nước Pháp, 
                                         cổng vòm này luôn sừng sững tráng lệ giữa thành phố với kiến trúc vòm độc đáo. Tại Khải Hoàn Môn còn khắc tên 
                                         của hàng trăm Danh Tướng đã điều khiển Đại Quân Pháp trong các chiến công của thời đại Napoléon. </p>
-                                        <img  src="./image/tourDetailChauau2.png" alt=""/>
+                                        <img  src="./image/tourDetailChauau2.png" alt="Chauau2"/>
                                        <p className="imageDescription"><i>Khải Hoàn Môn, là một trong những công trình biểu tượng của Nước Pháp.</i></p> 
                                         <p><b>Tháp Eiffel</b> - Một công trình kiến trúc bằng thép nằm bên sông Seine, được xem như là biểu tượng của nước 
                                             Pháp và là công trình kỷ niệm 100 năm cách mạng Pháp (tham quan bên ngoài). </p>
-                                        <img src="./image/tourDetailChauau5.png" alt=""/>
+                                        <img src="./image/tourDetailChauau5.png" alt="Chauau5"/>
                                         <p className="imageDescription"><i>Tháp Eiffel, niềm tự hào của người Pháp.</i></p>
                                         <p>Trưa: Quý khách dùng cơm trưa tại nhà hàng địa phương. Sau đó, Quý khách tiếp tục hành trình tham quan</p>
                                         <p>Trải nghiệm Ngồi thuyền <b>Bateaux Parisiens trên Sông Seine</b> – Quý khách sẽ được ngắm nhìn những di sản văn hóa 
@@ -145,12 +145,12 @@ function TourDetailChauau(){
                                         <p>Sáng: Quý khách dùng điểm tâm sáng và làm thủ tục trả phòng khách sạn. Sau đó, xe đưa Quý khách khởi hành đi Pisa.</p>
                                         <p>Trưa: Quý khách dùng cơm trưa tại nhà hàng địa phương. Sau đó, Quý khách tham quan (chụp ảnh bên ngoài):</p>
                                         <p><b>Tháp Nghiêng Pisa</b> – là một tòa tháp chuông tại thành phố Pisa được khởi xây năm 1173 là biểu tượng du lịch của nước Ý, được UNESCO công nhận là di sản thế giới.</p>
-                                        <img src="./image/thapNghiengPisa.png" alt=""/>
+                                        <img src="./image/thapNghiengPisa.png" alt="Pisa"/>
                                         <p className="imageDescription"><i>Tháp Nghiêng Pisa.</i></p>
                                         <p>Piazza dei Miracoli – Quảng trường Mầu nhiệm là một khu vực có tường bao rộng 8,87 hecta nằm ở Pisa, Toscana, Ý. 
                                             Đây là một trung tâm quan trọng của nghệ thuật thời Trung Cổ ở châu Âu và là một trong những khu phức hợp kiến
                                              trúc bảo quản tốt nhất trên thế giới. Nó được Giáo hội Công giáo coi là một nơi linh thiêng.</p>
-                                        <img src="./image/piazzaDei.png" alt=""/>
+                                        <img src="./image/piazzaDei.png" alt="Piazza"/>
                                         <p className="imageDescription"><i>Piazza dei Miracoli.</i></p> 
                                         <p><b>Nhà rửa tội thánh John ở Pisa (Pisa Baptistery)</b> – Là một phần của quảng trường Miracle cùng với 
                                             nhà thờ chính tòa và tháp nghiêng tạo thành một quần thể kiến trúc độc đáo với tông màu
@@ -178,11 +178,11 @@ function TourDetailChauau(){
                                     <div className="contentTour">
                                         <p>Sáng: Quý khách dùng điểm tâm sáng và làm thủ tục trả phòng khách sạn. Sau đó, xe đưa Quý khách khởi hành tham quan (chụp ảnh bên ngoài):</p>
                                         <p><b>Đấu trường La Mã Coloseum</b> – là một đấu trường lớn ở thành phố Roma, nơi các đấu sĩ có những cuộc tử đấu</p>
-                                        <img src="./image/dauTruong.png" alt=""/>
+                                        <img src="./image/dauTruong.png" alt="dauTruong"/>
                                         <p className="imageDescription"><i>Đấu Trường La Mã Coloseum</i></p>
                                         <p>Trưa: Quý khách dùng cơm trưa tại nhà hàng địa phương. Sau đó, xe đưa Quý khách khởi hành tham quan (chụp hình bên ngoài):</p>
                                         <p><b>Tòa thánh Vatican</b> – Cũng được xem là 1 quốc gia trong 1 quốc gia tại Italy</p>
-                                        <img src="./image/toaThanhVatican.png" alt=""/>
+                                        <img src="./image/toaThanhVatican.png" alt="Vatican"/>
                                         <p className="imageDescription"><i>Tòa Thánh Vatican.</i></p> 
                                         <p><b>Quảng trường thánh Saint Peter</b>  – được xây bởi Hoàng đế Constantine năm 324 sau công nguyên.</p>
                                         <p>Chiều: Quý khách dùng cơm tối tại nhà hàng địa phương. Xe đưa Quý khách về khách sạn nghỉ ngơi. Nghỉ đêm tại Rome.</p>

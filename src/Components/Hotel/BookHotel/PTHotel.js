@@ -1,8 +1,8 @@
 import React from "react";
 import './HotelDetail.css';
-import HotelChildren from "./HotelChildren";
+import BookHotelFrame from "./BookHotelFrame";
 
-function HotelPY(){
+function PTHotel(){
     return(
         <div className="container">
           <h1>Khách sạn Phan Thiết</h1>
@@ -10,7 +10,7 @@ function HotelPY(){
           <div class="col-xs-12 col-md 3 sidebar-left">
                 <div class="cs">
                     <div class="img-wrapper">
-                        <img src="image/img-the.png" alt=""/>
+                        <img src="image/img-the.png" alt="Reception"/>
                     </div>
                     <div>
                         <h5>Cần hỗ trợ ?</h5>
@@ -30,10 +30,10 @@ function HotelPY(){
                 </div>
             </div>
             <div class="col-xs-12 col-md-9">
-               <HotelChildren
+               <BookHotelFrame
                 title = "Còn 80 ngày | Combo 3N2Đ | Vé máy bay + Đưa đón + Buffet sáng + Villa bể bơi"
-                image="image/pill-item-py1.png"
-                name="Zannier Hotels Bãi San Hô"
+                image="image/pill-item-pt1.png"
+                name="Khu nghỉ dưỡng Centara Mirage Mũi Né"
                 score="9.3"
                 text="Tuyệt vời"
                 count= "678 đánh giá"
@@ -45,10 +45,10 @@ function HotelPY(){
                 price="2.351.000 VNĐ"
                />
 
-                <HotelChildren
+                <BookHotelFrame
                 title = "Còn 24 ngày | Combo 3N2Đ | Vé máy bay + Đưa đón + Buffet sáng "
-                image="image/pill-item-py2.png"
-                name="Khu nghỉ dưỡng Stelia Beach Phú Yên"
+                image="image/pill-item-pt2.png"
+                name="Khu nghỉ dưỡng Movenpick Phan Thiết"
                 score="9.6"
                 text="Tuyệt vời"
                 count= "267 đánh giá"
@@ -60,10 +60,10 @@ function HotelPY(){
                 price="1.251.000 VNĐ"
                />
 
-                <HotelChildren
+                <BookHotelFrame
                 title = "Còn 24 ngày | Combo 3N2Đ | Vé máy bay + Đưa đón + Buffet sáng"
-                image="image/pill-item-py3.png"
-                name="Rosa Alba Resort & Villas Tuy Hòa"
+                image="image/pill-item-pt3.png"
+                name="Khu nghỉ dưỡng The Anam Mũi Né"
                 score="9.0"
                 text="Tuyệt vời"
                 count= "496 đánh giá"
@@ -75,10 +75,10 @@ function HotelPY(){
                 price="1.351.000 VNĐ"
                />
 
-              <HotelChildren
+              <BookHotelFrame
                 title = "Còn 45 ngày | Combo 3N2Đ | Vé máy bay + Đưa đón + Buffet sáng + Villa bể bơi"
-                image="image/pill-item-py4.png"
-                name="Khách sạn SALA Grand Tuy Hòa"
+                image="image/pill-item-pt4.png"
+                name="Khu nghỉ dưỡng Asteria Mũi Né"
                 score="9.8"
                 text="Tuyệt vời"
                 count= "246 đánh giá"
@@ -90,10 +90,10 @@ function HotelPY(){
                 price="2.450.000 VNĐ"
                />
 
-              <HotelChildren
+              <BookHotelFrame
                 title = "Còn 45 ngày | Combo 3N2Đ | Vé máy bay + Đưa đón + Buffet sáng + Villa bể bơi"
-                image="image/pill-item-py5.png"
-                name="Khách sạn Sala Tuy Hòa Phú Yên"
+                image="image/pill-item-pt5.png"
+                name="Khu nghỉ dưỡng Asteria Mũi Né"
                 score="9.7"
                 text="Tuyệt vời"
                 count= "346 đánh giá"
@@ -105,10 +105,10 @@ function HotelPY(){
                 price="2.158.000 VNĐ"
                />
 
-              <HotelChildren
+              <BookHotelFrame
                 title = "Còn 84 ngày | Combo 3N2Đ | Vé máy bay + Đưa đón + Buffet sáng + Villa bể bơi"
-                image="image/pill-item-py6.png"
-                name="Khách sạn Wink Tuy Hòa Beach"
+                image="image/pill-item-pt6.png"
+                name="Khu nghỉ dưỡng Anantara Mũi Né "
                 score="9.1"
                 text="Tuyệt vời"
                 count= "508 đánh giá"
@@ -122,10 +122,10 @@ function HotelPY(){
                 price="2.500.000 VNĐ"
                />
 
-            <HotelChildren
+            <BookHotelFrame
                 title = "Còn 90 ngày | Combo 3N2Đ | Vé máy bay + Đưa đón + Buffet sáng"
-                image="image/pill-item-py7.png"
-                name="Mandala Hotel & Spa Phú Yên"
+                image="image/pill-item-pt7.png"
+                name="Khu nghỉ dưỡng Anantara Mũi Né"
                 score="9.1"
                 text="Tuyệt vời"
                 count= "100 đánh giá"
@@ -143,4 +143,4 @@ function HotelPY(){
         </div>
     )
 }
-export default HotelPY;
+export default PTHotel;

@@ -1,8 +1,8 @@
 import React from "react";
 import './HotelDetail.css';
-import HotelChildren from "./HotelChildren";
+import BookHotelFrame from "./BookHotelFrame";
 
-function HotelPQ(){
+function PQHotel(){
     return(
         <div className="container">
           <h1>Khách sạn Phú Quốc</h1>
@@ -10,7 +10,7 @@ function HotelPQ(){
           <div class="col-xs-12 col-md 3 sidebar-left">
                 <div class="cs">
                     <div class="img-wrapper">
-                        <img src="image/img-the.png" alt=""/>
+                        <img src="image/img-the.png" alt="Reception"/>
                     </div>
                     <div>
                         <h5>Cần hỗ trợ ?</h5>
@@ -30,7 +30,7 @@ function HotelPQ(){
                 </div>
             </div>
             <div class="col-xs-12 col-md-9">
-               <HotelChildren
+               <BookHotelFrame
                 title = "Còn 80 ngày | Combo 3N2Đ | Vé máy bay + Đưa đón + Buffet sáng + Villa bể bơi"
                 image="image/pill-item1.png"
                 name="Khu nghỉ dưỡng Melia Vinpearl Phú Quốc"
@@ -47,7 +47,7 @@ function HotelPQ(){
                 price="351.000 VNĐ"
                />
 
-                <HotelChildren
+               <BookHotelFrame
                 title = " Còn 64 ngày | Combo 3N2Đ | Vé máy bay + Đưa đón + Buffet sáng"
                 image="image/pill-item2.png"
                 name="Nghỉ dưỡng Premier Residences Phú Quốc"
@@ -62,7 +62,7 @@ function HotelPQ(){
                 price="1.251.000 VNĐ"
                />
 
-                <HotelChildren
+                <BookHotelFrame
                 title = "Còn 80 ngày | Combo 3N2Đ | Vé máy bay + Đưa đón + Buffet sáng + Villa bể bơi"
                 image="image/pill-item3.png"
                 name="Sheraton Phú Quốc Long Beach Resort"
@@ -79,7 +79,7 @@ function HotelPQ(){
                 price="351.000 VNĐ"
                />
 
-              <HotelChildren
+              <BookHotelFrame
                 title = "Còn 70 ngày | Combo 3N2Đ | Vé máy bay + Đưa đón + Buffet sáng + Villa bể bơi"
                 image="image/pill-item4.png"
                 name="JW Marriott Phú Quốc Emerald Bay"
@@ -94,7 +94,7 @@ function HotelPQ(){
                 price="450.000 VNĐ"
                />
 
-              <HotelChildren
+              <BookHotelFrame
                 title = "Còn 74 ngày | Combo 3N2Đ | Vé máy bay + Đưa đón + Buffet sáng + Villa bể bơi"
                 image="image/pill-item5.png"
                 name="Khu nghỉ dưỡng Wyndham Grand Phú Quốc"
@@ -109,7 +109,7 @@ function HotelPQ(){
                 price="158.000 VNĐ"
                />
 
-              <HotelChildren
+              <BookHotelFrame
                 title = "Còn 74 ngày | Combo 3N2Đ | Vé máy bay + Đưa đón + Buffet sáng + Villa bể bơi"
                 image="image/pill-item6.png"
                 name="Khách sạn VinHolidays Fiesta Phú Quốc"
@@ -126,7 +126,7 @@ function HotelPQ(){
                 price="500.000 VNĐ"
                />
 
-              <HotelChildren
+              <BookHotelFrame
                 title = "Còn 54 ngày | Combo 3N2Đ | Vé máy bay + Đưa đón + Buffet sáng + Villa bể bơi"
                 image="image/pill-item7.png"
                 name="Vinpearl Wonderworld Phú Quốc"
@@ -143,7 +143,7 @@ function HotelPQ(){
                 price="500.000 VNĐ"
                />
 
-              <HotelChildren
+              <BookHotelFrame
                 title = "Còn 24 ngày | Combo 3N2Đ | Vé máy bay + Đưa đón + Buffet sáng + Villa bể bơi"
                 image="image/pill-item8.png"
                 name="Seashells Phú Quốc Hotel & Spa"
@@ -164,4 +164,4 @@ function HotelPQ(){
         </div>
     )
 }
-export default HotelPQ;
+export default PQHotel;

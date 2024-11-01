@@ -1,9 +1,9 @@
 import React from "react";
-function TourChildrent1(props){
+function TourFrame(props){
     return(
         <div>
                 <div className="container-tour">
-                        <img src={props.image} alt=""/>
+                        <img src={props.image} alt="itemCommon"/>
                         <div className="tour-title">
                             <p><b>{props.title}</b></p>
                         </div>
@@ -23,4 +23,4 @@ function TourChildrent1(props){
         </div>
     )
 }
-export default TourChildrent1;
+export default TourFrame;

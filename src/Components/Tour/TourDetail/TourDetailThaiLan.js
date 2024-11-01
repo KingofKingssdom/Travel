@@ -90,11 +90,11 @@ function TourDetailThaiLan(){
                                             <br/> Đến Thái Lan, hướng dẫn viên địa phương đón đoàn đi dùng bữa trưa nhẹ trong sân bay. 
                                             Xe đưa đoàn đến với <b>Thành Phố Biển Pattaya</b> - Được mệnh danh là “Thành phố không ngủ”.
                                         </p>
-                                        <img src="./image/pattaya.png" alt=""/>
+                                        <img src="./image/pattaya.png" alt="pattaya"/>
                                         <p className="imageDescription"><i>Thành Phố Biển Pattaya.</i></p> 
                                         <p>Đoàn dùng bữa tối BBQ - Lẩu hái sản. Sau đó thưởng thức chương trình vô cùng hoành tráng do các vũ 
                                             công chuyển đổi giới tính biểu diễn - <b>Thailand Must See Show.</b></p>
-                                            <img src="./image/danceThaiLan.png" alt=""/>
+                                            <img src="./image/danceThaiLan.png" alt="dance"/>
                                             <p className="imageDescription"><i>Màn trình diễn rực rỡ sắc màu tại show vũ công chuyển giới.</i></p>
                                             <p>Xe đưa đoàn nhận phòng khách sạn nghỉ ngơi. Tự do khám phá Pattaya về đêm.</p>
                                     </div>  
@@ -116,20 +116,20 @@ function TourDetailThaiLan(){
                                         <p>Quý khách dùng điểm tâm sáng tại khách sạn, HDV đưa đoàn ra đảo san hô bằng tàu cao tốc.
                                             <br/><b>Đảo Koh Larn</b> - Nằm trong vịnh Thái Lan có bờ cát trắng, làn nước trong xanh. 
                                             Quý khách tự do tắm biển hoặc tự túc tham gia các trò chơi ngoài đảo: lặn biển, dù kéo, chuối kéo,…</p>
-                                        <img  src="./image/daoKohLarn2.jpg" alt=""/>
+                                        <img  src="./image/daoKohLarn2.jpg" alt="daoKohLarn"/>
                                        <p className="imageDescription"><i>Khung cảnh thiên đường của Đảo San Hô Koh Larn.</i></p> 
                                         <p>Trưa trở lại đất liền dùng cơm trưa chuẩn bị cho chuyến tham quan buổi chiều.
                                             <br/><b>Trung tâm di sản trầm hương quốc gia</b> - Vua của các mùi hương. Phật giáo gọi là: hương thơm 
                                             của niết bàn Công giáo gọi là: hương thơm của chúa.
                                             <br/><b>Trân Bảo Phật Sơn</b> - Ngọn núi Phật Vàng độc đáo với hình tượng Đức Phật dược khắc laser thẳng 
                                             vào núi và dát vàng tổng số lượng vàng lên tới 999kg 24k.</p>
-                                        <img src="./image/chanPhatSonThailan.png" alt=""/>
+                                        <img src="./image/chanPhatSonThailan.png" alt="chanPhatSon"/>
                                         <p className="imageDescription"><i>Trân Bảo Phật Sơn: Phật vàng khổng lồ uy nghiêm.</i></p>
                                         <p>Trung tâm nghiên cứu giấc ngủ Hoàng Gia Thái Lan.
                                         <br/><b>Đoàn viếng Chùa Phật Lớn (Wat Phra Yai)</b> - Nằm trên đỉnh Đồi Pratumnak giữa Pattaya 
                                         và Bãi biển Jomtien. Xây dựng từ những năm 1940 khi Pattaya còn là làng chài, chùa nổi tiếng với 
                                             Tượng Phật Lớn linh thiêng, thu hút đông đảo người dân địa phương đến cầu nguyện.</p>
-                                            <img src="./image/tourThaiLan.png" alt=""/>
+                                            <img src="./image/tourThaiLan.png" alt="tourThailan"/>
                                             <p className="imageDescription"><i>Cổng rồng vàng hùng vĩ tại Chùa Phật Lớn.</i></p>
                                         <p>Tối quý khách tự do khám phá <b>Walking Street</b> - Hoặc tự túc đăng ký các “Show diễn kỳ thú” về đêm có một không hai chỉ có tại Pattaya.</p>
                                     </div>
@@ -152,11 +152,11 @@ function TourDetailThaiLan(){
                                     <div className="contentTour">
                                         <p>Đoàn dùng buffet sáng tại khách sạn, trả phòng, sau đó tham quan:
                                             <br/><b>Nong Nooch Garden</b> - Một trong những khu vườn nhiệt đới lớn nhất Đông Nam Á.</p>
-                                        <img src="./image/khungLongNong.png" alt=""/>
+                                        <img src="./image/khungLongNong.png" alt="KhungLongNong"/>
                                         <p className="imageDescription"><i>Nong Nooch Garden: Khu vườn nhiệt đới rộng lớn.</i></p>
                                         <p><b>Bảo tàng ánh sáng Lighting Art & Vườn khinh khí cầu</b> - Một khu phức hợp mới với những sự sáng tạo; 
                                         kết hợp giữa sự cổ điển và công nghệ hiện đại từ ánh đèn lung linh, đến những chiếc khinh khí cầu đầy màu sắc và những chiếc xe hơi cổ xưa.</p>
-                                        <img src="./image/artThailan.png" alt=""/>
+                                        <img src="./image/artThailan.png" alt="artThailan"/>
                                         <p className="imageDescription"><i>Vườn Khinh Khí Cầu Thái Lan: Một thế giới lung linh ánh sáng và màu sắc.</i></p> 
                                        
                                           <p><b>Trung tâm nghiên cứu rắn độc</b> - Đến đây quý khách sẽ được xem những màn xiếc rắn độc đáo và tìm hiểu về y học của người Thái.
@@ -181,7 +181,7 @@ function TourDetailThaiLan(){
                                     <div className="contentTour">
                                         <p>Đoàn dùng điểm tâm sáng tại khách sạn.
                                         <br/>Ghé thăm <b>bảo tàng Chaophraya</b> và ngắm nhìn các cổ  vật có tuổi đời hàng nghìn năm.</p>
-                                        <img src="./image/baoTangThailan.png" alt=""/>
+                                        <img src="./image/baoTangThailan.png" alt="baoTangThailan"/>
                                         <p className="imageDescription"><i>Bảo  tàng Chaopharaya</i></p>
                                         <p>Đoàn dùng bữa trưa Buffet 5***** tại nhà hàng xoay Baiyoke Sky 86 Tầng với hơn trăm món ăn ngon từ Á đến Âu.
                                         <br/>Sau đó tự do tham quan mua sắm tại các trung tâm mua sắm & siêu thị như Big C, Central World, Siam Paragon hay chợ sỉ Platinum,…

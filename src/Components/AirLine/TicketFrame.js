@@ -1,6 +1,6 @@
 import { FaArrowRightArrowLeft } from "react-icons/fa6";
 import React from "react";
-function AirLineChildren(props){
+function TicketFrame(props){
     return(
         <div>
             <div class="box-ticket">
@@ -14,16 +14,16 @@ function AirLineChildren(props){
                                 <h5>{props.end}</h5>
                                 <p>{props.dayEnd}</p>
                             </div>
-                            <img src={props.image} alt=""/>
+                            <img src={props.image} alt="itemCommon"/>
                         </div>
                         <div class="box-ticket-content2">
                             <h4 class="text text-info">{props.price}</h4>
-                            <a href="">
-                                <button class="button-see">Xem</button>
+                            <a href="s">
+                                <button class="button-see">Đặt</button>
                             </a>
                         </div>
                     </div>
         </div>
     )
 }
-export default AirLineChildren;
+export default TicketFrame;

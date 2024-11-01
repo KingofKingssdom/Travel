@@ -1,7 +1,7 @@
 import { BsPatchCheck } from "react-icons/bs";
 import { IoIosStar } from "react-icons/io";
 import { FaHeart} from "react-icons/fa";
-function HotelChildren(props){
+function BookHotelFrame(props){
     return (
         <div>
             <div class="hotel-item-wrapper">
@@ -15,7 +15,7 @@ function HotelChildren(props){
                     </div>
                     <div class="hotel-item">
                         <div class="left">
-                            <img src={props.image} alt=""/>
+                            <img src={props.image} alt="itemCommon"/>
                         </div>
                         <div class="center">
                             <div class="header">
@@ -82,4 +82,4 @@ function HotelChildren(props){
         </div>
     )
 }
-export default HotelChildren;
+export default BookHotelFrame;

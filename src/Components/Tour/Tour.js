@@ -1,11 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './tour.css'
-import TourChildren1 from './TourChildren/TourChildren1.js'
-function TourComon(){
+import TourFrame from './TourFrame';
+function Tour(){
     return(
         <div>
-            <img src="image/tourBackground.png" alt=""/>
+            <img src="image/tourBackground.png" alt="background"/>
             <div>
             <div className="introduction">
                 <h6>1000+ tours</h6>
@@ -25,7 +25,7 @@ function TourComon(){
             <p>Nhanh tay đặt ngày để mai sẽ lỡ</p>
             <div className='cardContainer'>
                 <Link  to="/GiangNamHanh-ThuongHai-ToChau-OTran-HangChau">
-                <TourChildren1
+                <TourFrame
                 image="image/tourChauau.jpg"
                 title="Tour Châu Âu 5N4Đ: TP.HCM - Khám phá - Pháp - Thụy Sĩ - Vantican"
                 emotion="10.0"
@@ -40,7 +40,7 @@ function TourComon(){
                 </Link>
                 
                 <Link to="/Bangkok-Pattaya-CongVienKhungLong">
-                <TourChildren1
+                <TourFrame
                 image="image/tourThaiLan5N4D.jpg"
                 title="Tour Thái Lan 5N4Đ: Bangkok - Pattaya - Công viên khủng long(Bay sáng, trưa)"
                 emotion="8.2"
@@ -55,7 +55,7 @@ function TourComon(){
                 </Link>
                 
                 <Link to="/LeGiang-DaiLy-Sangrila">
-                <TourChildren1
+                <TourFrame
                 image="image/tourTrungQuoc_LeGiang.jpg"
                 title="Tour Trung Quốc 6N5Đ: Lệ Giang - Đại Lý - Sangrila (No Shopping)"
                 emotion="9.0"
@@ -72,7 +72,7 @@ function TourComon(){
             </div>
             <div className='cardContainer'>
                 <Link to="/NghiXuong-TruongGiaGioi-ThienMonSon-PhuongHoangCoTran">
-                <TourChildren1
+                <TourFrame
                 image="image/tourTrungQuoc_NghiXuong.jpg"
                 title="Tour Trung Quốc 6N5Đ: Nghi Xương - Trương Gia Giới - Thiên Môn Sơn - Phượng Hoàng Cổ Trấn"
                 emotion="9.3"
@@ -86,7 +86,7 @@ function TourComon(){
                 />
                 </Link>
                 <Link to="/HCM-CapNhiTan-LangTuyetHuong-MauDonGiang-HoJingbo">
-                <TourChildren1
+                <TourFrame
                 image="image/tourTrungQuoc_CapNhiTan.jpg"
                 title="Tour Trung Quốc 6N5Đ: HCM - Cáp Nhĩ Tân - Làng Tuyết Hương - Mẫu Đơn Giang - Hồ Jingbo"
                 emotion="8.2"
@@ -99,7 +99,7 @@ function TourComon(){
                 />
                 </Link>
                 <Link to="/HCM-GardensByTheBay-CaoNguyenGenting">
-                <TourChildren1
+                <TourFrame
                 image="image/tourSingapore.jpg"
                 title="Tour Singapore - Malaysia 5N4Đ: HCM - Gardens By The Bay - Cao Nguyên Genting - Động Batu - Chùa Thiền Hậu"
                 emotion="9.0"
@@ -113,14 +113,14 @@ function TourComon(){
                 />
                 </Link>
             </div>
-            <a href="" className="see-more-tours">Xem thêm các Tours</a>
+            <a href="more" className="see-more-tours">Xem thêm các Tours</a>
             </div>
             <div className="tour-autumn">
             <h1>Chùm Tour Du Lịch Mùa Thu</h1>
             <p>Khám phá thể giới, thưởng ngoạn thu vàng</p>
             <div className='cardContainer'>
                 <Link to="/HCM-Narita-Yamanashi">
-                <TourChildren1
+                <TourFrame
                 image="image/tourNhatBan_Narita.jpg"
                 title="Tour Nhật Bản 4N4Đ: HCM - Narita - Yamanashi - Tokyo mùa thu lá đỏ"
                 emotion="10.0"
@@ -134,7 +134,7 @@ function TourComon(){
                 />
                 </Link>
                 <Link to="/HCM-DaoNami-CongVienEverland">
-                <TourChildren1
+                <TourFrame
                 image="image/tourHanQuoc_DaoNami.jpg"
                 title="Tour Hàn Quốc 4N4Đ: HCM - Đảo Nami - Công viên Everland - Làng Bích Họa Songwol - Tháp Namsan"
                 emotion="8.2"
@@ -148,7 +148,7 @@ function TourComon(){
                 />
                 </Link>
                 <Link to="/HaNoi-Seoul-Nami">
-                <TourChildren1
+                <TourFrame
                 image="image/tourHanQuoc_Seoul.jpg"
                 title="Tour Hàn Quốc 5N4Đ: Hà Nội - Seoul - Nami - Làng Korean Folk - Thư viện Starfield"
                 emotion="8.3"
@@ -164,7 +164,7 @@ function TourComon(){
             </div>
             <div className='cardContainer'>
                 <Link to="/CungDuongVangOsaka-Kyoto">
-                <TourChildren1
+                <TourFrame
                 image="image/tourNhatBan_CungDuongVang.jpg"
                 title="Tour Nhật Bản 5N5Đ: Cung đường vàng Osaka - Kyoto - Tokyo mùa thu "
                 emotion="9.0"
@@ -177,7 +177,7 @@ function TourComon(){
                 />
                 </Link>
                 <Link to="/HaNoi-Tokyo-PhuSi">
-                <TourChildren1
+                <TourFrame
                 image="image/tourNhatBan_Tokyo.jpg"
                 title="Tour Trung Quốc 6N5Đ: Hà Nội - Tokyo - Phú Sĩ - Osaka - Kyoto"
                 emotion="8.2"
@@ -191,7 +191,7 @@ function TourComon(){
                 </Link>
 
                 <Link to="/HaNoi-CungDuongVangNuocNga">
-                <TourChildren1
+                <TourFrame
                 image="image/tourNga.jpg"
                 title="Tour Nga 8N7Đ: Hà Nội - Khám Phá Cung Đường Vàng Nước Nga Kì Vĩ"
                 emotion="9.0"
@@ -206,14 +206,14 @@ function TourComon(){
                 </Link>
             
             </div>
-            <a href="" className="see-more-tours">Xem thêm các Tours</a>
+            <a href="more" className="see-more-tours">Xem thêm các Tours</a>
             </div>
             <div className="tour-winter">
             <h1>Chùm Tour Du Lịch Trượt Tuyết Mùa Đông</h1>
             <p>Khám phá mùa tuyết, trải nghiệm khác biệt</p>
             <div className='cardContainer'>
                 <Link to="/Seoul-LotteWorld-DaoNamiMuaDong">
-                <TourChildren1
+                <TourFrame
                 image="image/tourHanQuoc_DaoNamMuaDong.jpg"
                 title="Tour Hàn Quốc 4N4Đ: Seoul - Lotte World - Đảo Nami Mùa Đông"
                 emotion="9.0"
@@ -227,7 +227,7 @@ function TourComon(){
                  />
                 </Link>
                 <Link to="/HCM-DaiLien-CapNhiTan-LangTuyetHuong">
-                <TourChildren1
+                <TourFrame
                 image="image/tourTrungQuoc_DaiLien.jpg"
                 title="Tour Trung Quốc 6N5Đ: HCM - Đại Liên - Cáp Nhĩ Tân - Làng Tuyết Hương - Quảng Trường Tĩnh Hải"
                 emotion="8.2"
@@ -240,7 +240,7 @@ function TourComon(){
                 />
                 </Link>
                 <Link to="/HaNoi-Seoul-Nami-LangKoreanFolk">
-                <TourChildren1
+                <TourFrame
                 image="image/tourHanQuoc_Busan.jpg"
                 title="Tour Hàn Quốc 5N4Đ: Hà Nội - Seoul - Nami - Làng Korean Folk - Thư viện Starfield"
                 emotion="8.3"
@@ -257,7 +257,7 @@ function TourComon(){
             </div>
             <div className='cardContainer'>
                 <Link to="/HCM-CapNhiTan-VonlgaManor">
-                <TourChildren1
+                <TourFrame
                 image="image/tourTrungQuoc_VonlgaManor.jpg"
                 title="Tour Trung Quốc 5N4Đ: HCM - Cáp Nhĩ Tân - Vonlga Manor - A Bố Lực"
                 emotion="8.0"
@@ -269,7 +269,7 @@ function TourComon(){
                 />
                 </Link>
                 <Link to="/HaNoi-Tokyo-Osaka-Kyoto">
-                <TourChildren1
+                <TourFrame
                 image="image/tourNhatBan_TraiNghiemKimono.jpg"
                 title="Tour Nhật Bản Mùa Đông 6N5Đ: Hà Nội - Tokyo  - Osaka - Kyoto - Trải Nghiệm Kimono"
                 emotion="8.2"
@@ -282,7 +282,7 @@ function TourComon(){
                 />
                 </Link>
                 <Link to="/HaNoi-LaoCai-HaKhau-ConMinh">
-                <TourChildren1
+                <TourFrame
                 image="image/tourTrungQuoc_ConMinh.jpg"
                 title="Tour Trung Quốc Đường Bộ 4N4Đ: Hà Nội - Lào Cai - Hà Khẩu - Côn Minh - Núi Kiệu Tử"
                 emotion="9.0"
@@ -297,10 +297,10 @@ function TourComon(){
                 </Link>
             
             </div>
-            <a href="" className="see-more-tours">Xem thêm các Tours</a>
+            <a href="more" className="see-more-tours">Xem thêm các Tours</a>
             </div>
         </div>
     )
     
 }
-export default TourComon;
+export default Tour;

@@ -5,7 +5,7 @@ function Level(){
     return(
         <div>
             <div className="backgroundAirLine">
-            <img src="image/background-levelHotel.jpg" alt=""/>
+            <img src="image/background-levelHotel.jpg" alt="bacground"/>
         </div>
         <div className="title">
             <p>Bạn đang tìm kiếm trải nghiệm du lịch nào?</p>

@@ -1,16 +1,16 @@
 import React from "react";
 import './HotelDetail.css';
-import HotelChildren from "./HotelChildren";
+import BookHotelFrame from "./BookHotelFrame";
 
-function HotelVT(){
+function QNHotel(){
     return(
         <div className="container">
-          <h1>Khách sạn Vũng Tàu</h1>
+          <h1>Khách sạn Quy Nhơn</h1>
           <div className="row">
           <div class="col-xs-12 col-md 3 sidebar-left">
                 <div class="cs">
                     <div class="img-wrapper">
-                        <img src="image/img-the.png" alt=""/>
+                        <img src="image/img-the.png" alt="Reception"/>
                     </div>
                     <div>
                         <h5>Cần hỗ trợ ?</h5>
@@ -30,10 +30,10 @@ function HotelVT(){
                 </div>
             </div>
             <div class="col-xs-12 col-md-9">
-               <HotelChildren
+               <BookHotelFrame
                 title = "Còn 80 ngày | Combo 3N2Đ | Vé máy bay + Đưa đón + Buffet sáng + Villa bể bơi"
-                image="image/pill-item-vt1.png"
-                name="Khu nghỉ dưỡng Holiday Inn Hồ Tràm"
+                image="image/pill-item-qn1.png"
+                name="Khu nghỉ dưỡng Crown Retreat Quy Nhơn"
                 score="9.3"
                 text="Tuyệt vời"
                 count= "678 đánh giá"
@@ -42,10 +42,10 @@ function HotelVT(){
                 tag3="Phù hợp cho hội họp"
                 item1= "Bãi biển riêng"
                 item2="Hồ bơi ngoài trời"
-                price="1.351.000 VNĐ"
+                price="4.351.000 VNĐ"
                />
 
-                <HotelChildren
+                <BookHotelFrame
                 title = "Còn 64 ngày | Combo 3N2Đ | Vé máy bay + Đưa đón + Buffet sáng"
                 image="image/pill-item-qn2.png"
                 name="Khu nghỉ dưỡng Mia Quy Nhơn"
@@ -60,25 +60,25 @@ function HotelVT(){
                 price="1.251.000 VNĐ"
                />
 
-                <HotelChildren
-                title = "Còn 24 ngày | Combo 3N2Đ | Vé máy bay + Đưa đón + Buffet sáng"
-                image="image/pill-item-vt2.png"
-                name="Khu nghỉ dưỡng Imperial Vũng Tàu"
+                <BookHotelFrame
+                title = "Còn 45 ngày | Combo 3N2Đ | Vé máy bay + Đưa đón + Buffet sáng + Villa bể bơi"
+                image="image/pill-item-qn3.png"
+                name="Khu nghỉ dưỡng Anantara Quy Nhơn Villas"
                 score="9.0"
                 text="Tuyệt vời"
                 count= "496 đánh giá"
                 tag1="Gần gũi với thiên nhiên"
                 tag2="Châu Âu"
                 tag3="Chụp ảnh đẹp"
-                item1= "Hồ bơi ngoài trời"
-                item2="Villa riêng cao cấp"
+                item1= "Biệt thự nghỉ dưỡng"
+                item2="Cảnh đẹp xung quanh"
                 price="1.351.000 VNĐ"
                />
 
-              <HotelChildren
+              <BookHotelFrame
                 title = "Còn 45 ngày | Combo 3N2Đ | Vé máy bay + Đưa đón + Buffet sáng + Villa bể bơi"
-                image="image/pill-item-vt3.png"
-                name="Melia Hồ Tràm Beach Resort"
+                image="image/pill-item-qn4.png"
+                name="Avani Quy Nhơn Resort & Spa"
                 score="9.8"
                 text="Tuyệt vời"
                 count= "246 đánh giá"
@@ -90,10 +90,10 @@ function HotelVT(){
                 price="2.450.000 VNĐ"
                />
 
-              <HotelChildren
-                title = "Còn 45 ngày | Combo 3N2Đ | Vé máy bay + Đưa đón + Buffet sáng + Villa bể bơi"
-                image="image/pill-item-vt4.png"
-                name="Mercure Hotel Vũng Tàu"
+              <BookHotelFrame
+                title = "Còn 24 ngày | Combo 3N2Đ | Vé máy bay + Đưa đón + Buffet sáng"
+                image="image/pill-item-dl5.png"
+                name="Khách sạn FLC Luxury Quy Nhơn"
                 score="9.7"
                 text="Tuyệt vời"
                 count= "346 đánh giá"
@@ -105,10 +105,10 @@ function HotelVT(){
                 price="2.158.000 VNĐ"
                />
 
-              <HotelChildren
-                title = "Còn 84 ngày | Combo 3N2Đ | Vé máy bay + Đưa đón + Buffet sáng + Villa bể bơi"
-                image="image/pill-item-vt5.png"
-                name="Khách sạn The Serect Côn Đảo"
+              <BookHotelFrame
+                title = "Còn 24 ngày | Combo 3N2Đ | Vé máy bay + Đưa đón + Buffet sáng + Villa bể bơi"
+                image="image/pill-item-qn6.png"
+                name="Khách sạn FLC Luxury Quy Nhơn"
                 score="9.1"
                 text="Tuyệt vời"
                 count= "508 đánh giá"
@@ -119,45 +119,11 @@ function HotelVT(){
                 tag5="Thương hiệu quốc tế"
                 item1= "Trong tổ hợp Grand World"
                 item2="Dễ dàng khám phá"
-                price="2.500.000 VNĐ"
-               />
-
-            <HotelChildren
-                title = "Còn 90 ngày | Combo 3N2Đ | Vé máy bay + Đưa đón + Buffet sáng"
-                image="image/pill-item-vt6.png"
-                name="Khách sạn Dhawa Hồ Tràm"
-                score="9.1"
-                text="Tuyệt vời"
-                count= "100 đánh giá"
-                tag1="Gần gũi với thiên nhiên"
-                tag2="Châu Âu"
-                tag3="Nghỉ dưỡng biển"
-                tag4="Chụp ảnh đẹp"
-                tag5="Thương hiệu quốc tế"
-                item1= "Trong tổ hợp Grand World"
-                item2="Dễ dàng khám phá"
-                price="3.500.000 VNĐ"
-               />
-
-            <HotelChildren
-                title = "Còn 90 ngày | Combo 3N2Đ | Vé máy bay + Đưa đón + Buffet sáng"
-                image="image/pill-item-vt7.png"
-                name="Khách sạn Angsana Hồ Tràm"
-                score="9.1"
-                text="Tuyệt vời"
-                count= "508 đánh giá"
-                tag1="Gần gũi với thiên nhiên"
-                tag2="Châu Âu"
-                tag3="Nghỉ dưỡng biển"
-                tag4="Chụp ảnh đẹp"
-                tag5="Thương hiệu quốc tế"
-                item1= "Trong tổ hợp Grand World"
-                item2="Dễ dàng khám phá"
-                price="1.500.000 VNĐ"
+                price="500.000 VNĐ"
                />
             </div>
           </div>
         </div>
     )
 }
-export default HotelVT;
+export default QNHotel;

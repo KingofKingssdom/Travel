@@ -1,9 +1,9 @@
 
-function Content2(props){
+function HotelPageContent2(props){
     return(
         <div className="container">
                 <div className="card">
-                    <img src={props.image} alt=""/>
+                    <img src={props.image} alt="itemCommon"/>
                     <div className="info">
                       <h3>{props.name}</h3>
                       <p>{props.content}<u>{props.hotel}</u></p>
@@ -13,4 +13,4 @@ function Content2(props){
         </div>
     )
 }
-export default Content2;
+export default HotelPageContent2;
