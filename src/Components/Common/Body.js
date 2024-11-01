@@ -18,7 +18,7 @@ import {Routes, Route} from 'react-router-dom'
 function Body(){
     return(
         <div>
-            <Routes>
+            {/* <Routes>
          
         <Route path='/Phu-Quoc' element={<PQHotel/>}/>
         <Route path='/Da-Lat' element={<DLHotel/>}/>
@@ -34,7 +34,7 @@ function Body(){
         <Route path='/Gift-Voucher' element={<Voucher/>}/>
         <Route path='/GiangNamHanh-ThuongHai-ToChau-OTran-HangChau' element={<TourDetailChauau/>}/>
         <Route path='/Bangkok-Pattaya-CongVienKhungLong' element={<TourDetailThaiLan/>}/>
-      </Routes>
+      </Routes> */}
         </div>
     )
 }

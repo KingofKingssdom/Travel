@@ -12,7 +12,7 @@ function Header(){
   <header className='fixed-top'>
     <div className='direction'>
          <div className='logo'>
-          <img src='./image/logo.png' alt='logo'/>
+          <img src='/image/logo.png' alt='logo'/>
         </div> 
          <div className='directionChild'>
           <Link  to="/"  className={activeItem === 'hotel' ? 'active' : ''}
